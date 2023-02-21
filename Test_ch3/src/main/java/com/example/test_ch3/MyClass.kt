@@ -67,4 +67,12 @@ fun main() {
 
     println("name : $name , sum : ${sum(10)}, plus : ${10+20}")
 
+    var data18 = mutableMapOf<String,Any>()
+    data18.set("class", myClass2)
+
+    println(data18.get("class"))
+
+
+    data18.set("class", MyClass())
+
 }
